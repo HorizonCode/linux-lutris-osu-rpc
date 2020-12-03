@@ -7,9 +7,9 @@ linux-lutris-osu-rpc is a small "patch-script" for the missing wine Discord-RPC 
   - Install osu!(Windows) on Lutris
   - navigate into the wine osu! directory of the lutris prefix (e.g. `cd /home/%user%/Games/osu/drive_c/osu/`)
   
-  - clone this repo into the current directory via the git command: 
+  - pull the script via wget into the lutris prefix: 
     ```sh
-    $ git clone https://github.com/HorizonCode/linux-lutris-rpc .
+    $ wget https://raw.githubusercontent.com/HorizonCode/linux-lutris-osu-rpc/main/rpcbridge.sh
     ```
   
   - configure the osu! lutris prefix and set the script as pre-script 
