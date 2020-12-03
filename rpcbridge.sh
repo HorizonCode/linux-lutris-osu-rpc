@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [[ ! -f "rpc.exe" ]]; then
-    wget "https://raw.githubusercontent.com/HorizonCode/linux-lutris-osu-rpc/main/files/rpc.exe" -O "rpc.exe" || zenity -error --title="Error" --text="Unable to download Discord IPC bridge!"
+    wget "https://raw.githubusercontent.com/HorizonCode/linux-lutris-osu-rpc/main/files/rpc.exe" -O "rpc.exe" || zenity --error --title="Error" --text="Unable to download Discord IPC bridge!"
 fi
 
 if [[ -f "rpc.exe" ]]; then
