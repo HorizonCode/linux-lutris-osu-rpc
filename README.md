@@ -12,7 +12,10 @@ linux-lutris-osu-rpc is a small "patch-script" for the missing wine Discord-RPC 
     $ wget https://raw.githubusercontent.com/HorizonCode/linux-lutris-osu-rpc/main/rpcbridge.sh && chmod +x rpcbridge.sh
     ```
   
+  
   - configure the osu! lutris prefix and set the script as pre-script 
+  
+    `! ENABLE "show advanced options" in the configure window !`
   
    `Configure`->`System options`->`Pre-launch script`->`Browse(select the pulled script there)`
   
